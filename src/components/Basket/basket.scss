@@ -1,0 +1,11 @@
+.basket {
+  position: absolute;
+  height: 200px;
+  left: 20rem;
+  top: 15rem;
+
+  > img {
+    width: 200px;
+    height: 200px;
+  }
+}

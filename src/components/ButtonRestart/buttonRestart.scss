@@ -1,0 +1,16 @@
+.btn-restart{
+    position: fixed;
+    top: 21rem;
+    left: 50rem;
+    padding: 1em;
+    background-color: #ddd;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 8px;
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(128, 128, 128);
+    }
+  }

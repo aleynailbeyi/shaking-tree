@@ -1,0 +1,101 @@
+@import '../../style/_variables';
+
+.apple_1 img,
+.apple_2 img,
+.apple_3 img,
+.apple_4 img,
+.apple_5 img {
+  width: $width;
+  height: $height;
+}
+
+.apple_1 {
+  position: absolute;
+  height: $height;
+  left: 9rem;
+  top: 3.5rem;
+}
+
+.apple_2 {
+  position: absolute;
+  height: $height;
+  left: 7rem;
+  top: 9.5rem;
+}
+
+.apple_3 {
+  position: absolute;
+  height: $height;
+  left: 10.5rem;
+  top: 9rem;
+}
+
+.apple_4 {
+  position: absolute;
+  height: $height;
+  left: 11rem;
+  top: 14.5rem;
+}
+
+.apple_5 {
+  position: absolute;
+  height: $height;
+  left: 6rem;
+  top: 15.5rem;
+}
+
+.apple_1_drop {
+  top: 26rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_1_basket {
+  top: 19rem !important;
+  left: 22rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_2_drop {
+  top: 26rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_2_basket {
+  top: 19rem !important;
+  left: 23rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_3_drop {
+  top: 26rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_3_basket {
+  top: 19rem !important;
+  left: 24rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_4_drop {
+  top: 26rem !important;
+  transition-duration: $duration-05s;
+  left: 12rem !important;
+}
+
+.apple_4_basket {
+  top: 19rem !important;
+  left: 25rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_5_drop {
+  top: 26rem !important;
+  transition-duration: $duration-05s;
+}
+
+.apple_5_basket {
+  top: 19rem !important;
+  left: 26rem !important;
+  transition-duration: $duration-05s;
+}
