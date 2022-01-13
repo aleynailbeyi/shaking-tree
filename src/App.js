@@ -30,7 +30,7 @@ const App = () => {
     }, time);
 
     for (let i = 0; i < 5; i++) {
-
+    // 5 elmayı sırayla dönerek ilgili saniyelerde drop olmasını ve ardından kutuya girmesini sağlıyor.
       setTimeout(() => {
         const appleDrop = {
           [apples[i]]: `${apples[i]}_drop`,
@@ -43,11 +43,10 @@ const App = () => {
           [apples[i]]: `${apples[i]}_drop ${apples[i]}_basket`,
         };
         setApplesState((prev) => ({ ...prev, ...appleCollect }));
-      }, time + i * 500 + 1000);
+      }, time + i * 500 + 1000); 
     }
   }; 
-
-
+  
   return (
     <div className="App">
       <Button shakeTree={shakeTree} />
@@ -55,7 +54,7 @@ const App = () => {
       <Basket />
       <Tree shake={shake} />
 
-      {apples.map((item) => (
+      {apples.map((item) => (    // map fonk. ile tüm elmalar dönülür.
         <div key={item}>
           <Apple item={item} appleState={applesState} />
         </div>

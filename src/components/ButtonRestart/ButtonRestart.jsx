@@ -1,15 +1,15 @@
 import './buttonRestart.scss';
 
-import React, {useState}  from 'react';
+import React  from 'react';
 
 function ButtonRestart() {
-    const [render, setRender] = useState(true);
-    
-    console.log(render);
-    
+    //buton restarta tıklandığında sayfayı yeniler.
+    function refreshPage(){      
+        window.parent.location = window.parent.location.href; 
+    }
     return (
         <div>
-            <button className="btn-restart" onClick={() => setRender(!render)}>
+            <button className="btn-restart" onClick={() => refreshPage()}>
             Restart
             </button>
         </div>
